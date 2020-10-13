@@ -1,0 +1,3 @@
+0 334.0 252.0 Ego 0 0 0  
+1 556.0 361.0 null 0 0 0  
+2 361.0 422.0 Physical 10 0 10 griffin Higgins

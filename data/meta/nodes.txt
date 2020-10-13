@@ -1,0 +1,3 @@
+NODE(0){ firstName:  lastName:  }
+NODE(1){ firstName:  lastName:  }
+NODE(2){ firstName: griffin lastName: Higgins }

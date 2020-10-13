@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<HBox 
+	xmlns:fx="http://javafx.com/fxml" 
+	xmlns="http://javafx.com/javafx"
+	fx:controller="application.ToolBarController"
+	spacing="10" 
+	prefHeight="40"
+>
+<padding><Insets top="5" right="5" bottom="5" left="5"/></padding>
+	<fx:define>
+        <ToggleGroup fx:id="modeGroup"/>
+        <ToggleGroup fx:id="actionGroup"/>
+    </fx:define>
+    <ToggleButton fx:id="hybridBtn" text="Hybrid" toggleGroup="$modeGroup" onAction="#setMode" style="-fx-base: lightgreen;"/>
+	<ToggleButton fx:id="physicalBtn" text="Physical" toggleGroup="$modeGroup" onAction="#setMode" style="-fx-base: salmon"/>
+	<ToggleButton fx:id="cyberBtn" text="Cyber" toggleGroup="$modeGroup" onAction="#setMode" style="-fx-base: lightblue"/>
+	<Separator Orientation="VERTICAL"/>
+	<ToggleButton fx:id="createBtn" text="create" toggleGroup="$actionGroup" onAction="#setAction"/>
+	<ToggleButton fx:id="deleteBtn" text="delete" toggleGroup="$actionGroup" onAction="#setAction"/>
+	<!-- <ToggleButton fx:id="editBtn" text="edit" toggleGroup="$actionGroup" onAction="#setAction"/> -->
+	<Separator Orientation="VERTICAL"/>
+	<Button fx:id="readBtn" text="read" onAction="#readIO"/>
+	<Button fx:id="writeBtn" text="write" onAction="#writeIO"/>
+</HBox>
