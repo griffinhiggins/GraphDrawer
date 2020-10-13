@@ -1,5 +1,5 @@
-TOTAL NODES:    { #5.0, %20.00 }
-PHYSICAL NODES: { #1.0, %25.00 }
-CYBER NODES:    { #1.0, %25.00 }
-HYBRID NODES:   { #1.0, %25.00 }
-NULL NODES:     { #1.0, %25.00 }
+TOTAL NODES:    { #11.0, %9.09 }
+PHYSICAL NODES: { #2.0, %20.00 }
+CYBER NODES:    { #4.0, %40.00 }
+HYBRID NODES:   { #4.0, %40.00 }
+NULL NODES:     { #0.0, %0.00 }
